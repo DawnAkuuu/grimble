@@ -1,7 +1,13 @@
-## Robot Package Template
+## Grimble Robot
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+# What is Grimble?
+This robot framework is being used as my own way of learning ROS2 to create my first ROS2 robot.
+Eventually this robot will have more details and added features on top of the lesson plan found at this url: https://youtu.be/OWeLUSzxMsw?si=zafxtcA7AtE_bTbw
+Thank you for Joshnewans for making this tutorial.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `grimble` to whatever your project's name is.
-
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+# Robot Hardware
+None so far, but here is what the plan to use is:
+- Raspberry Pi 4B running Ubuntu 24.04
+- Arduino Nano for Motor Control
+- Brushed DC motors with encoders
+- L298N Motor drivers
