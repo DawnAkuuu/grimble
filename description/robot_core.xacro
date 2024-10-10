@@ -84,14 +84,7 @@
         </xacro:inertial_box>
     </link>
 
-    <gazebo reference="chassis">
-        <material>
-            <script>
-                <uri>file://media/materials/scripts/gazebo.material</uri>
-                <name>Gazebo/Blue</name>
-            </script>
-        </material>
-    </gazebo>
+    <gazebo reference="chassis"/>
 
     <!-- LEFT WHEEL LINK -->
 
@@ -119,14 +112,7 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="left_wheel">
-        <!-- <material>
-            <script>
-                <uri>file://media/materials/scripts/gazebo.material</uri>
-                <name>Gazebo/Blue</name>
-            </script>
-        </material> -->
-    </gazebo>
+    <gazebo reference="left_wheel"/>
 
 
 
@@ -157,14 +143,7 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="right_wheel">
-        <!-- <material>
-            <script>
-                <uri>file://media/materials/scripts/gazebo.material</uri>
-                <name>Gazebo/Blue</name>
-            </script>
-        </material> -->
-    </gazebo>
+    <gazebo reference="right_wheel"/>
 
 
     <!-- CASTER WHEEL LINK -->
@@ -194,12 +173,6 @@
     </link>
 
     <gazebo reference="caster_wheel">
-        <!-- <material>
-            <script>
-                <uri>file://media/materials/scripts/gazebo.material</uri>
-                <name>Gazebo/White</name>
-            </script>
-        </material> -->
         <mu1 value="0.001"/>
         <mu2 value="0.001"/>
     </gazebo>
